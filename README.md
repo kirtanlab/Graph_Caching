@@ -42,10 +42,6 @@ The Restaurant API implements a robust caching mechanism to address these challe
 
 ## Architecture
 
-![Alt text](documentation/Caching_PNG.png)
-
-The application follows a layered architecture pattern with an emphasis on separation of concerns:
-
 ### Architectural Components
 
 ![Alt text](documentation/Architecture.png)
@@ -210,7 +206,7 @@ The system implements sophisticated caching strategies:
 ### Caching Strategy
 The project implements a sophisticated caching strategy that balances performance, consistency, and complexity:
 
-[Diagram: Cache Strategy - Shows the caching decision points and eviction patterns]
+![Alt text](documentation/Caching_PNG.png)
 
 1. **Cache at Controller Level**:
    - Caching is implemented at the controller layer rather than service layer
