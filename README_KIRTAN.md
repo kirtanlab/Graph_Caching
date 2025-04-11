@@ -42,7 +42,7 @@ The Restaurant API implements a robust caching mechanism to address these challe
 
 ## Architecture
 
-[Diagram: High-Level System Architecture - Shows Restaurant API with controller layer, service layer, persistence layer (Neo4j), and caching layer (Simple, Caffeine, or Redis)]
+image::documentation/Caching_PNG.png[]
 
 The application follows a layered architecture pattern with an emphasis on separation of concerns:
 
