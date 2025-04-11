@@ -52,7 +52,7 @@ The application follows a layered architecture pattern with an emphasis on separ
 
 ### Data Flow
 
-[Diagram: Request-Response Flow - Shows how a request flows through the system, with caching checks at appropriate points]
+![Alt text](documentation/data-flow.png)
 
 1. Client sends a request to the REST controller
 2. Controller checks if requested data exists in cache
