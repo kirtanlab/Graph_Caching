@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.4.4</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.kirtan</groupId>
+    <artifactId>springboot-caching-neo4j</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>springboot-caching-neo4j</name>
+    <description>Demo project for Spring Boot</description>
+    <url>https://github.com/kirtanp/springboot-caching-neo4j</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Kirtan</name>
+            <email>example@email.com</email>
+            <organization>Personal</organization>
+            <organizationUrl>https://github.com/kirtanp</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/kirtanp/springboot-caching-neo4j.git</connection>
+        <developerConnection>scm:git:ssh://github.com:kirtanp/springboot-caching-neo4j.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/kirtanp/springboot-caching-neo4j/tree/main</url>
+    </scm>
+
+    <properties>
+        <java.version>17</java.version>
+        <junit-jupiter.version>5.10.2</junit-jupiter.version>
+        <neo4j.version>5.18.0</neo4j.version>
+    </properties>
+
+    <dependencies>
+        <!-- Common dependencies for all modules -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <!-- Test dependencies -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit-jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit-jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <modules>
+        <module>restaurant-api</module>
+    </modules>
+
+    <!-- Optional: Add repositories if needed -->
+    <repositories>
+        <repository>
+            <id>spring-releases</id>
+            <name>Spring Releases</name>
+            <url>https://repo.spring.io/release</url>
+        </repository>
+    </repositories>
+</project>
