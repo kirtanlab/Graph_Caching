@@ -47,14 +47,8 @@ The Restaurant API implements a robust caching mechanism to address these challe
 The application follows a layered architecture pattern with an emphasis on separation of concerns:
 
 ### Architectural Components
-| Layer | Description | Key Components |
-|-------|-------------|----------------|
-| **Controller Layer** | Handles HTTP requests, provides REST endpoints | `CityController`, `RestaurantController`, `RestaurantDishController` |
-| **Service Layer** | Contains business logic, performs data validation | `CityService`, `RestaurantService`, `DishService` |
-| **Repository Layer** | Manages data access operations with Neo4j | `CityRepository`, `RestaurantRepository`, `DishRepository` |
-| **Caching Layer** | Handles cache operations for different providers | `CachingConfig`, Cache annotations |
-| **Model Layer** | Defines domain entities | `City`, `Restaurant`, `Dish` |
-| **Mapper Layer** | Maps between DTOs and entities | `CityMapper`, `RestaurantMapper`, `DishMapper` |
+
+![Alt text](documentation/Architecture.png)
 
 ### Data Flow
 
