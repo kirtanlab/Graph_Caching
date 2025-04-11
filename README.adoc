@@ -2,15 +2,6 @@
 
 The goal of this project is to explore how caching works. For it, we are going to implement a simple https://docs.spring.io/spring-boot/index.html[`Spring Boot`] application called `restaurant-api`. We are using https://neo4j.com[`Neo4j`] for storage and, for caching, we can pick one of the following providers: https://docs.spring.io/spring-boot/reference/io/caching.html#io.caching.provider.simple[`Simple`], https://github.com/ben-manes/caffeine[`Caffeine`] or https://redis.io/[`Redis`].
 
-== Proof-of-Concepts & Articles
-
-On https://ivangfr.github.io[ivangfr.github.io], I have compiled my Proof-of-Concepts (PoCs) and articles. You can easily search for the technology you are interested in by using the filter. Who knows, perhaps I have already implemented a PoC or written an article about what you are looking for.
-
-== Additional Readings
-
-- [**Medium**] https://medium.com/@ivangfr/implementing-cache-using-caffeine-in-a-spring-boot-api-that-uses-spring-data-jpa-and-postgresql-3220cabacdc7[**Implementing Cache using Caffeine in a Spring Boot API that uses Spring Data JPA and PostgreSQL**]
-- [**Medium**] https://medium.com/@ivangfr/implementing-cache-using-redis-in-a-spring-boot-api-that-uses-spring-data-jpa-and-postgresql-1abc4493bfa2[**Implementing Cache using Redis in a Spring Boot API that uses Spring Data JPA and PostgreSQL**]
-
 == Project Diagram
 
 image::documentation/project-diagram.jpeg[]
