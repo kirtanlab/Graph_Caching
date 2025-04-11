@@ -1,5 +1,14 @@
 # Restaurant API: Spring Boot Caching with Neo4j
+<div align="center">
 
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.4-brightgreen)
+![Neo4j](https://img.shields.io/badge/Neo4j-5.26.4-blue)
+![Java](https://img.shields.io/badge/Java-21%2B-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+*A sophisticated restaurant management API demonstrating advanced caching strategies with Neo4j*
+
+</div>
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Architecture](#architecture)
