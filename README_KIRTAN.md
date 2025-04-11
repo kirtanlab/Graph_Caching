@@ -42,7 +42,7 @@ The Restaurant API implements a robust caching mechanism to address these challe
 
 ## Architecture
 
-image::documentation/Caching_PNG.png[]
+image::documentation/Caching_PNG.png
 
 The application follows a layered architecture pattern with an emphasis on separation of concerns:
 
