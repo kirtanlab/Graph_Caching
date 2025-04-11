@@ -127,7 +127,7 @@ Start the required infrastructure services:
 
 ```bash
 docker compose up -d
-    
+ ```   
 This command initializes:
 •	Neo4j database instance
 •	Redis cache instance (if using Redis provider)
