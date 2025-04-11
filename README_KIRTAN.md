@@ -10,6 +10,7 @@
 *A sophisticated restaurant management API demonstrating advanced caching strategies with Neo4j*
 
 </div>
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Architecture](#architecture)
