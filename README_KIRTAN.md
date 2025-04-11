@@ -434,18 +434,8 @@ The project roadmap includes several planned enhancements:
    - Create sample data scripts using Neo4j API
    - Automated data seeding for testing and demos
 
-3. **Additional Cache Providers**:
-   - Integrate other cache providers (Hazelcast, Memcached)
-   - Benchmark performance comparisons
 
-4. **Distributed Caching**:
-   - Enhance Redis implementation for cluster support
-   - Implement cache invalidation messaging
-
-5. **Cache Warming**:
-   - Implement proactive cache loading for frequent queries
-   - Cache analytics to identify optimal caching targets
 <div align="center">
-<p>Made with ❤️ by <a href="https://github.com/kirtanp">Kirtan</a></p>
+<p>Made with ❤️ by <a href="https://github.com/kirtanlab">Kirtan</a></p>
 <p>MIT License</p>
 </div>
