@@ -445,3 +445,7 @@ The project roadmap includes several planned enhancements:
 5. **Cache Warming**:
    - Implement proactive cache loading for frequent queries
    - Cache analytics to identify optimal caching targets
+<div align="center">
+<p>Made with ❤️ by <a href="https://github.com/kirtanp">Kirtan</a></p>
+<p>MIT License</p>
+</div>
